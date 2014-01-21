@@ -50,7 +50,7 @@ public class MagicSquare {
 		this.testColumns();
 		this.testDiagonals();
 		
-		//magic squares don't have magic numbers.
+		//non-magic squares don't have magic numbers.
 		if (this.isMagic == false){
 			magicNumber = -1;
 		}
